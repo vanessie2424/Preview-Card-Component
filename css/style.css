@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 1440px;
+    font-family: 'Outfit', sans-serif;
+    
+    
+}
+
+.card{
+    max-width: 300px;
+    min-height: 68vh;
+    background: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+#equilbrium{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 0 28px;
+}
+p{
+    font-size: 12px;
+    margin: 10px;
+    padding-left: 12px;
+}
+
+#equil{
+    font-weight: 600;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
+#collect{
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+
+}
+.value{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nums{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+
+}
+#eth{
+    position: relative;
+    right: 15px;
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+}
+
+.days{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+
+}
+
+#left{
+    position: relative;
+    right: 15px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+}
+
+.line{
+    background: hsl(215, 32%, 27%);
+    height: 1.5px;
+    width: 220px;
+    margin: 0 12px;
+
+}
+.create{
+    display: flex;
+    align-items: center;
+    margin: 1px 5px;
+}
+
+#avatar{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left: 10px;
+}
+
+#jules{
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+
+span{
+    color: hsl(0, 0%, 100%);
+}
+
+
+
+
+
+
